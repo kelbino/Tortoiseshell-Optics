@@ -1,0 +1,135 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+
+}
+
+/*--header--*/
+.header{
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.container-grp1{
+  display: flex;
+
+}
+
+.container-grp1 img{
+  margin: 2rem 1rem 1rem 1rem;
+  height: 1.5rem;
+
+}
+
+.container-grp1 p{
+  font-size: 1rem;
+  margin-top: 15px;
+  display: inline;
+  align-self: center;
+
+}
+
+.dsktp-menu-items ul{
+  margin-right: 2rem;
+
+}
+
+.dsktp-menu-items li{
+  display: inline;
+  padding: 1rem;
+
+}
+
+.mobile-menu-items{
+  display: none;
+
+}
+
+
+/*--banner--*/
+.banner{
+  height: 30rem;
+  background-image: url('../resources/glasses-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+
+}
+
+.banner-title{
+   margin-top: 10rem;
+   background-color: white;
+   position: relative;
+   float: right;
+   right: 50px;
+   width: 40%;
+   clear: both;
+
+}
+
+.banner-title p{
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0px auto;
+
+}
+
+/*--main-content--*/
+.main-content{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+}
+
+.container-a{
+  height: 8rem;
+  padding: 3rem 0rem;
+
+}
+
+.container-a img{
+  margin: 0rem 3rem;
+
+}
+
+.paper{
+  width: 3.5rem;
+
+}
+
+.ruler{
+  width: 5rem;
+
+}
+
+.truck{
+  width: 5rem;
+
+}
+
+.container-b{
+
+}
+
+.sub-container-grp1, .sub-container-grp2{
+  width: 35%;
+
+
+}
+
+.sub-header{
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  width: 10rem;
+
+}
